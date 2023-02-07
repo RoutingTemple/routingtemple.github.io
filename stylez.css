@@ -1,0 +1,92 @@
+
+body{margin: 0;
+padding: 0;
+    background-color:#0D0D18;
+    font-family:"Sigmar One";
+ box-sizing: border-box;
+    
+    
+    /*pointer-events: none;*/
+}
+
+
+
+
+#top{
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 4vh;
+   background-color:#410000;
+    opacity:0.97;
+    color:white;
+    font-size: 10vw;
+    text-align: center;
+    border-radius: 1%;
+}
+
+
+
+#mid{min-height:100%;
+    height: auto;
+    width:72vw;
+    background-color:#410000;
+    opacity:0.97;
+    margin-left: 14vw;
+    border-radius:10px;
+    text-align: center;
+}
+
+input{
+    width:20vw;
+    
+    height:20vh;
+    background-color: black;
+    border-color:crimson;
+        border-width:10px;
+    color:white;
+        font-size:3.8vw;  
+    font-family:"Sigmar One";
+     cursor:pointer;
+}
+
+#b1{
+    margin-top:10vh; 
+}
+
+img{width:30vw;
+margin-top: 4vh;
+ border-color:crimson;
+        border-width:10px;
+    border-style: solid;
+        border-style: outset;
+    cursor:pointer;
+}
+
+
+a{text-decoration:none;
+   color:inherit;}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    #top{
+       height: 10vh;
+    }
+    
+    audio{
+    display:none;
+    }
+    #audiotest{width: 72vw;
+         font-size:10vw;
+        
+        
+    }
+    input{width: 72vw;
+         font-size:10vw;
+        }
+}
